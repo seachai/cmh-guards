@@ -14,19 +14,17 @@ Develop an “extra large-sized” view of a Bootstrap 4 responsive, single web 
 
 ## Deliverables
 
-1. Part 1: Wireframe of single web page
+Part 1: Wireframe of single web page
 
-- Can be hand-sketched (provide scans) or computer-generated (Adobe XD, Illustrator or Photoshop)
+  * Can be hand-sketched (provide scans) or computer-generated (Adobe XD, Illustrator or Photoshop)
 
-2. Part 2: Layout design of a single web page
+Part 2: Layout design of a single web page
+  * Please provide PDF or JPG of static layout
+  * Create a layout in Illustrator or Photoshop
 
-- Please provide PDF or JPG of static layout
-- Create a layout in Illustrator or Photoshop
-
-3. Part 3: “Live” programmed web page based on your design
-
-- Please provide either upload to a staged link that can be shared via URL or provide ZIP file with HTML, CSS, linked assets (including images, backgrounds, javascript, etc. Consider basic SEO best practices such as H1, H2, H3 headers, page descriptions, etc.
-- Target Google Chrome web browser
+Part 3:  “Live” programmed web page based on your design
+  * Please provide either upload to a staged link that can be shared via URL or provide ZIP file with HTML, CSS, linked assets (including images, backgrounds, javascript, etc. Consider basic SEO best practices such as H1, H2, H3 headers, page descriptions, etc.
+  * Target Google Chrome web browser
 
 ## Goal
 
