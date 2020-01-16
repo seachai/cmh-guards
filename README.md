@@ -1,68 +1,33 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 2020 Mini Challenge for Web Design and Programming
 
-## Available Scripts
+## Client
 
-In the project directory, you can run:
+### CMH Guards
 
-### `npm start`
+## About
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+An industrial manufacturing company that fabricates what they describe as “oil-tight chain guards” — or dust-proof custom metal housings for sprocket and chain assemblies that are filled with an oil bath to keep the chain lubricated while revolving around the gear. Applications typically include the drivetrain assembly for a conveyor belt in outdoor applications to move raw materials, such as mining.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Requirements
 
-### `npm test`
+Develop an “extra large-sized” view of a Bootstrap 4 responsive, single web page. No other responsive size versions are needed for this challenge. You have full creative license to develop a visually compelling web page, leveraging interesting and unique web programming functionality. (Consider such elements as parallax sliding background images, fixed/top anchored logo header navigation bars, contact form, embedding video (provided) into the page.)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Deliverables
 
-### `npm run build`
+1. Part 1: Wireframe of single web page
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Can be hand-sketched (provide scans) or computer-generated (Adobe XD, Illustrator or Photoshop)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+2. Part 2: Layout design of a single web page
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Please provide PDF or JPG of static layout
+- Create a layout in Illustrator or Photoshop
 
-### `npm run eject`
+3. Part 3: “Live” programmed web page based on your design
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Please provide either upload to a staged link that can be shared via URL or provide ZIP file with HTML, CSS, linked assets (including images, backgrounds, javascript, etc. Consider basic SEO best practices such as H1, H2, H3 headers, page descriptions, etc.
+- Target Google Chrome web browser
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Goal
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+To identify and assess the organization of thought, planning of design, proficiency with essential software, creative aptitude and understanding/implementation of HTML and CSS when going from front-end web design to executing and programming for a “live” web page.

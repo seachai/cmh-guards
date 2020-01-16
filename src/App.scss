@@ -1,0 +1,22 @@
+@import "./Sass/Normalize.scss";
+@import "./Sass/Variables.scss";
+@import "./Sass/Grid.scss";
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+// SCSS Components
+@import "./Components/Header/Header.scss";
+@import "./Components/Carousel/Carousel.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
