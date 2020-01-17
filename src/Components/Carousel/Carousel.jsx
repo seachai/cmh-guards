@@ -35,7 +35,7 @@ const Carousel = () => {
         <div className="carousel--details container">
           <div className="carousel--details_inner col-xl-6">
             <h1 className="carousel--details_title">
-              We Engineer Amazing Things
+              No Job Too Small or Too Complicated
             </h1>
             <p className="carousel--details_body">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.

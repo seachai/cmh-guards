@@ -16,7 +16,7 @@
         .carousel--details_title {
           font-size: 3.5rem;
           font-weight: 600;
-          line-height: 56px;
+          line-height: 62px;
           margin-bottom: 1.5rem;
           color: $white;
         }
@@ -37,18 +37,16 @@
   .first {
     background: linear-gradient(
         to bottom,
-        rgba(61, 114, 180, 0.52),
-        rgba(82, 82, 82, 0.52)
+        rgba(61, 114, 180, 0.4),
+        rgba(82, 82, 82, 0.2)
       ),
-      url("../../Images/Carousel/mining-saw-distant-view.jpg"),
-      no-repeat center center;
+      url("../../Images/Carousel/welders-at-work.jpg"), no-repeat center center;
     background: linear-gradient(
         to bottom,
         rgba(61, 114, 180, 0.4),
         rgba(82, 82, 82, 0.2)
       ),
-      url("../../Images/Carousel/mining-saw-distant-view.jpg"),
-      no-repeat center center;
+      url("../../Images/Carousel/welders-at-work.jpg"), no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -80,16 +78,18 @@
   .third {
     background: linear-gradient(
         to bottom,
-        rgba(61, 114, 180, 0.4),
-        rgba(82, 82, 82, 0.2)
+        rgba(61, 114, 180, 0.52),
+        rgba(82, 82, 82, 0.52)
       ),
-      url("../../Images/Carousel/giant-mining-saw.jpg"), no-repeat center center;
+      url("../../Images/Carousel/mining-saw-distant-view.jpg"),
+      no-repeat center center;
     background: linear-gradient(
         to bottom,
         rgba(61, 114, 180, 0.4),
         rgba(82, 82, 82, 0.2)
       ),
-      url("../../Images/Carousel/giant-mining-saw.jpg"), no-repeat center center;
+      url("../../Images/Carousel/mining-saw-distant-view.jpg"),
+      no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

@@ -7,6 +7,7 @@
 @import "./Components/Header/Header.scss";
 @import "./Components/Carousel/Carousel.scss";
 @import "./Components/About/About.scss";
+@import "./Components/Quote/Quote.scss";
 
 // Library
 @import "./Library/Button/Button.scss";
@@ -29,4 +30,9 @@ body {
 
 li {
   list-style: none;
+}
+
+::selection {
+  background-color: $orange-red;
+  color: $white;
 }
