@@ -1,0 +1,25 @@
+.button {
+  display: flex;
+  a {
+    color: $white;
+    background-color: $orange;
+    border: 1px solid transparent;
+    line-height: 45px;
+    border-radius: 2px;
+    padding: 0 35px;
+    position: relative;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: block;
+    letter-spacing: 0;
+    text-decoration: none;
+    transition: all 0.2s;
+    &:hover {
+      color: $orange;
+      background-color: $white;
+      border: 1px solid $orange;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+    }
+  }
+}

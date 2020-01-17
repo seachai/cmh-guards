@@ -1,0 +1,26 @@
+.about-us {
+  padding: 5rem 0;
+  .about-us--title {
+    h5 {
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0px;
+      color: $black;
+      margin: 0.5rem 0 1rem 0;
+    }
+    h2 {
+      font-weight: 600;
+      line-height: 42px;
+      color: $orange-red;
+      margin: 1rem 0;
+    }
+  }
+
+  .about-us--body {
+    p {
+      line-height: 26px;
+      letter-spacing: -0.2px;
+      margin: 1rem 0;
+    }
+  }
+}

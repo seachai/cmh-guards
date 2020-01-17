@@ -1,10 +1,90 @@
-.hero--background {
-  height: 100vh;
-  width: 100%;
-  background: url("../../Images/Carousel/giant-mining-saw.jpg") no-repeat center
-    center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.carousel {
+  overflow: hidden;
+  .carousel--images {
+    // width: 100vw;
+    height: calc(100vh - 100px);
+    color: #fff;
+    z-index: 1;
+    .carousel--details {
+      height: 50%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      position: absolute;
+      top: 0;
+      transform: translateY(50%);
+
+      .carousel--details_inner {
+      }
+    }
+  }
+
+  .first {
+    background: url("../../Images/Carousel/giant-mining-saw.jpg"),
+      no-repeat center center;
+    background: url("../../Images/Carousel/giant-mining-saw.jpg"),
+      no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .second {
+    background: url("../../Images/Carousel/mining-garage.jpg"),
+      no-repeat center center;
+    background: url("../../Images/Carousel/mining-garage.jpg"),
+      no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .third {
+    background: url("../../Images/Carousel/mining-saw-distant-view.jpg"),
+      no-repeat center center;
+    background: url("../../Images/Carousel/mining-saw-distant-view.jpg"),
+      no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .carousel--arrow_overlay {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: $white;
+    font-size: 2rem;
+    border-radius: 2px;
+    width: 50px;
+    height: 80px;
+    position: absolute;
+    line-height: 80px;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    z-index: 1;
+    cursor: pointer;
+    transition: all 0.2s;
+    &:hover {
+      color: $yellow-orange;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+    }
+
+    .fa-arrow-circle-left {
+      left: 0;
+    }
+    .fa-arrow-circle-right {
+      right: 0;
+    }
+  }
+  .left {
+    left: 0;
+  }
+  .right {
+    right: 0;
+  }
 }

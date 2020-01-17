@@ -12,6 +12,7 @@ header {
     display: block;
     letter-spacing: 0;
     text-decoration: none;
+    color: $black;
   }
 
   .navigation--bar {
@@ -22,9 +23,12 @@ header {
     padding: 0.5rem 0;
     .navigation--bar_logo {
       img {
-        max-width: 100%;
         height: 80px;
       }
+    }
+    .animated {
+      position: relative;
+      z-index: 1;
     }
     .navigation--bar_links {
       margin-left: auto;
@@ -33,8 +37,7 @@ header {
         position: relative;
         a {
           display: block;
-          color: $black;
-          padding: 0 15px;
+          padding: 0 18px;
           height: 80px;
           line-height: 80px;
           transition: all 0.2s;
@@ -56,7 +59,7 @@ header {
           top: 100%;
           opacity: 1;
           visibility: hidden;
-          z-index: 1;
+          z-index: 2;
           li {
             display: block;
             padding: 0 35px;
@@ -83,28 +86,8 @@ header {
           visibility: visible !important;
         }
       }
-    }
-    .navigation--bar_quote-button {
-      display: flex;
-      align-items: center;
-      line-height: 80px;
-      margin-left: 20px;
-      a {
-        color: $white;
-        background-color: $orange;
-        border: 1px solid transparent;
-        line-height: 45px;
-        margin-left: 20px;
-        border-radius: 2px;
-        display: inline-block;
-        padding: 0 35px;
-        position: relative;
-        transition: all 0.2s;
-        &:hover {
-          color: $orange;
-          background-color: $white;
-          border: 1px solid $orange;
-        }
+      li:last-child {
+        margin-right: 40px;
       }
     }
   }

@@ -2,10 +2,15 @@ import React, { useState } from "react";
 import { Animated } from "react-animated-css";
 
 import Logo from "../../Images/Logo/CMH-Guards-Logos.jpg";
+import QuoteButton from "../../Library/Button/Button";
 
 const Products = ({ dropDown, setDropDown }) => {
   return (
-    <Animated animationIn="fadeIn" animationInDuration={400}>
+    <Animated
+      animationIn="fadeIn"
+      animationOut="fadeOut"
+      animationInDuration={400}
+    >
       <ul className={`navigation--bar_submenu ${dropDown ? "show" : null}`}>
         <li>
           <a href="/">Product 1</a>
@@ -43,9 +48,7 @@ const Header = () => {
               <a href="/">Company</a>
             </li>
             <li>
-              <a href="/" onMouseEnter={() => setDropDown(true)}>
-                Products
-              </a>
+              <a href="/">Products</a>
               {dropDown && (
                 <Products dropDown={dropDown} setDropDown={setDropDown} />
               )}
@@ -55,9 +58,7 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <div className="navigation--bar_quote-button">
-          <a href="/">Request Quote</a>
-        </div>
+        <QuoteButton text={"Request Quote"} />
       </nav>
     </header>
   );
