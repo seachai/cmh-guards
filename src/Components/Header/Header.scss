@@ -19,9 +19,11 @@ header {
     align-items: center;
     justify-content: space-between;
     position: relative;
+    padding: 0.5rem 0;
     .navigation--bar_logo {
       img {
-        max-width: 70%;
+        max-width: 100%;
+        height: 80px;
       }
     }
     .navigation--bar_links {
@@ -41,7 +43,44 @@ header {
           }
         }
         .navigation--bar_submenu {
-          display: none;
+          background-color: $white;
+          display: block;
+          width: 250px;
+          padding: 30px 0;
+          -webkit-box-shadow: 0 50px 100px 0 rgba(64, 1, 4, 0.1),
+            0 -6px 0 0 rgba(248, 99, 107, 0.004);
+          box-shadow: 0 50px 100px 0 rgba(64, 1, 4, 0.1),
+            0 -6px 0 0 rgba(248, 99, 107, 0.004);
+          position: absolute;
+          left: -35px;
+          top: 100%;
+          opacity: 1;
+          visibility: hidden;
+          z-index: 1;
+          li {
+            display: block;
+            padding: 0 35px;
+            margin-bottom: 5px;
+            text-align: left;
+            position: relative;
+            a {
+              display: block;
+              height: auto;
+              line-height: inherit;
+              font-weight: 400;
+              letter-spacing: 0;
+              line-height: 2.5;
+              text-transform: capitalize;
+              padding: 1px 7px;
+              font-size: 12px;
+              &:hover {
+                background-color: #f9f9f9;
+              }
+            }
+          }
+        }
+        .show {
+          visibility: visible !important;
         }
       }
     }

@@ -1,8 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
+import { Animated } from "react-animated-css";
 
-import Logo from "../../Images/Logo/logosvgcom.png";
+import Logo from "../../Images/Logo/CMH-Guards-Logos.jpg";
+
+const Products = ({ dropDown, setDropDown }) => {
+  return (
+    <Animated animationIn="fadeIn" animationInDuration={400}>
+      <ul className={`navigation--bar_submenu ${dropDown ? "show" : null}`}>
+        <li>
+          <a href="/">Product 1</a>
+        </li>
+        <li>
+          <a href="/">Product 2</a>
+        </li>
+        <li>
+          <a href="/">Product 3</a>
+        </li>
+        <li>
+          <a href="/">Product 4</a>
+        </li>
+      </ul>
+    </Animated>
+  );
+};
 
 const Header = () => {
+  const [dropDown, setDropDown] = useState(false);
   return (
     <header>
       <nav className="navigation--bar container">
@@ -20,15 +43,12 @@ const Header = () => {
               <a href="/">Company</a>
             </li>
             <li>
-              <a href="/">Products</a>
-              <ul className="navigation--bar_submenu">
-                <li>
-                  <a href="/">Product 1</a>
-                </li>
-                <li>
-                  <a href="/">Product 2</a>
-                </li>
-              </ul>
+              <a href="/" onMouseEnter={() => setDropDown(true)}>
+                Products
+              </a>
+              {dropDown && (
+                <Products dropDown={dropDown} setDropDown={setDropDown} />
+              )}
             </li>
             <li>
               <a href="/">Contact</a>

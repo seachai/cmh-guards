@@ -8,27 +8,32 @@ import MiningSawDistantView from "../../Images/Carousel/mining-saw-distant-view.
 
 const settings = {
   dots: true,
-  lazyLoad: true,
   infinite: true,
+  speed: 500,
   slidesToShow: 1,
-  slidesToScroll: 1,
-  arrows: false,
-  className: "carousel"
+  slidesToScroll: 1
 };
 
 const Carousel = () => {
   return (
     <Slider {...settings}>
-      <div className="carousel--images">
-        <img src={GiantMiningSaw} alt="Giant mining saw" />
+      <div>
+        <h3>Hello World</h3>
       </div>
-
-      <div className="carousel--images">
-        <img src={MiningGarage} alt="Mining garage" />
+      <div>
+        <h3>Hello World</h3>
       </div>
-
-      <div className="carousel--images">
-        <img src={MiningSawDistantView} alt="Giang mining saw in the distant" />
+      <div>
+        <h3>Hello World</h3>
+      </div>
+      <div>
+        <h3>Hello World</h3>
+      </div>
+      <div>
+        <h3>Hello World</h3>
+      </div>
+      <div>
+        <h3>Hello World</h3>
       </div>
     </Slider>
   );
