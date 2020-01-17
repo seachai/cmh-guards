@@ -1,8 +1,7 @@
 @import "./Sass/Normalize.scss";
 @import "./Sass/Variables.scss";
 @import "./Sass/Grid.scss";
-// @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
 // Components
 @import "./Components/Header/Header.scss";
@@ -19,12 +18,15 @@
 }
 
 body {
-  // font-family: "Roboto", sans-serif;
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
   overflow-x: hidden;
   color: $black;
+}
+
+li {
+  list-style: none;
 }

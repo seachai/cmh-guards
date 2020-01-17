@@ -1,26 +1,59 @@
 .about-us {
   padding: 5rem 0;
+  background-color: #f9f9f9;
+  border-bottom: 2px solid #eee;
   .about-us--title {
     h5 {
       font-weight: 600;
       text-transform: uppercase;
       letter-spacing: 0px;
-      color: $black;
+      color: $orange-red;
       margin: 0.5rem 0 1rem 0;
     }
     h2 {
       font-weight: 600;
-      line-height: 42px;
-      color: $orange-red;
+      line-height: 2.6rem;
       margin: 1rem 0;
     }
   }
 
   .about-us--body {
     p {
-      line-height: 26px;
-      letter-spacing: -0.2px;
+      line-height: 2rem;
       margin: 1rem 0;
+    }
+  }
+
+  .about-us--list {
+    ul {
+      li {
+        font-size: 0.9rem;
+        font-weight: 600;
+        line-height: 2rem;
+        .fas {
+          font-size: 0.9rem;
+          color: $orange;
+        }
+        span {
+          margin-left: 1.4rem;
+        }
+      }
+      p {
+        margin: 1rem 0;
+      }
+    }
+  }
+
+  .button {
+    margin-top: 2.5rem;
+  }
+
+  .about-us--photo {
+    margin: 1rem 0;
+    img {
+      max-width: 100%;
+      height: auto;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
     }
   }
 }

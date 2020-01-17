@@ -1,6 +1,7 @@
 import React from "react";
 
-const Button = ({ text }) => {
+const Button = ({ text, align }) => {
+  console.log(text);
   return (
     <div className="button">
       <a href="/">{text}</a>
