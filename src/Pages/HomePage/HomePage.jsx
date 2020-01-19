@@ -6,6 +6,7 @@ import Header from "../../Components/Header/Header";
 import Carousel from "../../Components/Carousel/Carousel";
 import About from "../../Components/About/About";
 import Quote from "../../Components/Quote/Quote";
+import Quality from "../../Components/Quality/Quality";
 
 const HomePage = () => {
   return (
@@ -14,6 +15,7 @@ const HomePage = () => {
       <Carousel />
       <About />
       <Quote />
+      <Quality />
     </>
   );
 };
