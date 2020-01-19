@@ -5,6 +5,7 @@ import "./HomePage.scss";
 import Header from "../../Components/Header/Header";
 import Carousel from "../../Components/Carousel/Carousel";
 import About from "../../Components/About/About";
+import Quote from "../../Components/Quote/Quote";
 
 const HomePage = () => {
   return (
@@ -12,6 +13,7 @@ const HomePage = () => {
       <Header />
       <Carousel />
       <About />
+      <Quote />
     </>
   );
 };

@@ -1,31 +1,24 @@
 import React, { useState } from "react";
-import { Animated } from "react-animated-css";
 
 import Logo from "../../Images/Logo/CMH-Guards-Logos.jpg";
 import QuoteButton from "../../Library/Button/Button";
 
 const Products = ({ dropDown, setDropDown }) => {
   return (
-    <Animated
-      animationIn="fadeIn"
-      animationOut="fadeOut"
-      animationInDuration={400}
-    >
-      <ul className={`navigation--bar_submenu ${dropDown ? "show" : null}`}>
-        <li>
-          <a href="/">Product 1</a>
-        </li>
-        <li>
-          <a href="/">Product 2</a>
-        </li>
-        <li>
-          <a href="/">Product 3</a>
-        </li>
-        <li>
-          <a href="/">Product 4</a>
-        </li>
-      </ul>
-    </Animated>
+    <ul className={`navigation--bar_submenu ${dropDown ? "show" : null}`}>
+      <li>
+        <a href="/">Product 1</a>
+      </li>
+      <li>
+        <a href="/">Product 2</a>
+      </li>
+      <li>
+        <a href="/">Product 3</a>
+      </li>
+      <li>
+        <a href="/">Product 4</a>
+      </li>
+    </ul>
   );
 };
 

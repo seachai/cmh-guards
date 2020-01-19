@@ -8,6 +8,7 @@
 @import "./Components/Carousel/Carousel.scss";
 @import "./Components/About/About.scss";
 @import "./Components/Quote/Quote.scss";
+@import "./Components/ProductGallery/ProductGallery.scss";
 
 // Library
 @import "./Library/Button/Button.scss";
@@ -18,12 +19,21 @@
   outline: 0;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  box-sizing: border-box;
   overflow-x: hidden;
   color: $black;
 }

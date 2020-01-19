@@ -1,5 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
+import Fade from "react-reveal/Fade";
 
 import QuoteButton from "../../Library/Button/Button";
 
@@ -17,8 +18,8 @@ const settings = {
   infinite: true,
   arrows: true,
   fade: true,
-  // autoplay: true,
-  // autoplaySpeed: 5000,
+  autoplay: true,
+  autoplaySpeed: 5000,
   speed: 500,
   slidesToShow: 1,
   slidesToScroll: 1,
@@ -34,15 +35,19 @@ const Carousel = () => {
       <div className="carousel--images first">
         <div className="carousel--details container">
           <div className="carousel--details_inner col-xl-6">
-            <h1 className="carousel--details_title">
-              No Job Too Small or Too Complicated
-            </h1>
-            <p className="carousel--details_body">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Perspiciatis officia velit quisquam quo? Aperiam, consequatur
-              iste? Illo cumque at accusamus!
-            </p>
-            <QuoteButton text={"Learn More"} />
+            <Fade top>
+              <h1 className="carousel--details_title">
+                No Job Too Small or Too Complicated
+              </h1>
+            </Fade>
+            <Fade bottom>
+              <p className="carousel--details_body">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Perspiciatis officia velit quisquam quo? Aperiam, consequatur
+                iste? Illo cumque at accusamus!
+              </p>
+              <QuoteButton text={"Learn More"} />
+            </Fade>
           </div>
         </div>
       </div>
@@ -55,13 +60,17 @@ const Carousel = () => {
             className="carousel--details_inner col-xl-6"
             style={{ textAlign: "center" }}
           >
-            <h1 className="carousel--details_title">Hello World</h1>
-            <p className="carousel--details_body">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Perspiciatis officia velit quisquam quo? Aperiam, consequatur
-              iste? Illo cumque at accusamus!
-            </p>
-            <QuoteButton text={"View Projects"} />
+            <Fade top>
+              <h1 className="carousel--details_title">Hello World</h1>
+            </Fade>
+            <Fade bottom>
+              <p className="carousel--details_body">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Perspiciatis officia velit quisquam quo? Aperiam, consequatur
+                iste? Illo cumque at accusamus!
+              </p>
+              <QuoteButton text={"View Projects"} />
+            </Fade>
           </div>
         </div>
       </div>
@@ -74,13 +83,17 @@ const Carousel = () => {
             className="carousel--details_inner col-xl-6"
             style={{ textAlign: "right" }}
           >
-            <h1 className="carousel--details_title">Hello World</h1>
-            <p className="carousel--details_body">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Perspiciatis officia velit quisquam quo? Aperiam, consequatur
-              iste? Illo cumque at accusamus!
-            </p>
-            <QuoteButton text={"Our Mission"} />
+            <Fade top>
+              <h1 className="carousel--details_title">Hello World</h1>
+            </Fade>
+            <Fade bottom>
+              <p className="carousel--details_body">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Perspiciatis officia velit quisquam quo? Aperiam, consequatur
+                iste? Illo cumque at accusamus!
+              </p>
+              <QuoteButton text={"Our Mission"} />
+            </Fade>
           </div>
         </div>
       </div>
