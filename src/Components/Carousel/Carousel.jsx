@@ -18,8 +18,8 @@ const settings = {
   infinite: true,
   arrows: true,
   fade: true,
-  autoplay: true,
-  autoplaySpeed: 5000,
+  // autoplay: true,
+  // autoplaySpeed: 5000,
   speed: 500,
   slidesToShow: 1,
   slidesToScroll: 1,
@@ -33,7 +33,7 @@ const Carousel = () => {
   return (
     <Slider {...settings}>
       <div className="carousel--images first">
-        <div className="carousel--details container">
+        <div className="carousel--details">
           <div className="carousel--details_inner col-xl-6">
             <Fade top>
               <h1 className="carousel--details_title">
@@ -52,10 +52,7 @@ const Carousel = () => {
         </div>
       </div>
       <div className="carousel--images second">
-        <div
-          className="carousel--details container"
-          style={{ alignItems: "center" }}
-        >
+        <div className="carousel--details" style={{ alignItems: "center" }}>
           <div
             className="carousel--details_inner col-xl-6"
             style={{ textAlign: "center" }}
@@ -75,10 +72,7 @@ const Carousel = () => {
         </div>
       </div>
       <div className="carousel--images third">
-        <div
-          className="carousel--details container"
-          style={{ alignItems: "flex-end" }}
-        >
+        <div className="carousel--details" style={{ alignItems: "flex-end" }}>
           <div
             className="carousel--details_inner col-xl-6"
             style={{ textAlign: "right" }}
