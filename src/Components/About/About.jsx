@@ -9,7 +9,7 @@ const About = () => {
     <section className="about-us">
       <div className="container">
         <div className="row">
-          <Fade left>
+          <Fade left distance={"30%"}>
             <div className="col-xl-6">
               <div className="about-us--title">
                 <h5>Oil-tight Chain Guards</h5>
@@ -43,7 +43,7 @@ const About = () => {
               <QuoteButton text={"More About Us"} />
             </div>
           </Fade>
-          <Fade right>
+          <Fade right distance={"30%"}>
             <div className="col-xl-6">
               <div className="about-us--photo">
                 <img src={Mining} alt="Mining and showcasing CMH guards" />

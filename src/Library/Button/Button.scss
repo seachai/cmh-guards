@@ -1,6 +1,9 @@
 .button {
   display: flex;
-  a {
+
+  a,
+  button {
+    cursor: pointer;
     color: $white;
     background-color: $orange;
     border: 1px solid transparent;

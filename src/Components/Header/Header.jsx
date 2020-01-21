@@ -51,7 +51,7 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <QuoteButton text={"Request Quote"} />
+        <QuoteButton text={"Request Quote"} order />
       </nav>
     </header>
   );

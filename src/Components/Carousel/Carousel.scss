@@ -1,11 +1,11 @@
 .carousel {
   overflow: hidden;
   .carousel--images {
-    height: calc(100vh - 98px);
-    color: #fff;
+    height: 100vh;
+    color: $white;
     z-index: 1;
     .carousel--details {
-      height: 50%;
+      height: 55%;
       display: flex;
       justify-content: center;
       flex-direction: column;
@@ -105,7 +105,7 @@
     height: 80px;
     position: absolute;
     line-height: 80px;
-    top: 50%;
+    top: 55%;
     transform: translateY(-50%);
     text-align: center;
     z-index: 1;
@@ -114,13 +114,6 @@
     &:hover {
       color: $yellow-orange;
       box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
-    }
-
-    .fa-arrow-circle-left {
-      left: 0;
-    }
-    .fa-arrow-circle-right {
-      right: 0;
     }
   }
   .left {

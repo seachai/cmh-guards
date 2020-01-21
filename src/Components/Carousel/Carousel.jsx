@@ -18,8 +18,8 @@ const settings = {
   infinite: true,
   arrows: true,
   fade: true,
-  // autoplay: true,
-  // autoplaySpeed: 5000,
+  autoplay: true,
+  autoplaySpeed: 5000,
   speed: 500,
   slidesToShow: 1,
   slidesToScroll: 1,
@@ -35,12 +35,12 @@ const Carousel = () => {
       <div className="carousel--images first">
         <div className="carousel--details container">
           <div className="carousel--details_inner col-xl-6">
-            <Fade top>
+            <Fade top delay={1000}>
               <h1 className="carousel--details_title">
                 No Job Too Small or Too Complicated
               </h1>
             </Fade>
-            <Fade bottom>
+            <Fade bottom delay={1000}>
               <p className="carousel--details_body">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Perspiciatis officia velit quisquam quo? Aperiam, consequatur
@@ -63,12 +63,12 @@ const Carousel = () => {
               flexDirection: "column"
             }}
           >
-            <Fade top>
+            <Fade top delay={1000}>
               <h1 className="carousel--details_title">
                 No Job Too Small or Too Complicated
               </h1>
             </Fade>
-            <Fade bottom>
+            <Fade bottom delay={1000}>
               <p className="carousel--details_body">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Perspiciatis officia velit quisquam quo? Aperiam, consequatur
@@ -88,12 +88,12 @@ const Carousel = () => {
             className="carousel--details_inner col-xl-6"
             style={{ textAlign: "right" }}
           >
-            <Fade top>
+            <Fade top delay={1000}>
               <h1 className="carousel--details_title">
                 No Job Too Small or Too Complicated
               </h1>
             </Fade>
-            <Fade bottom>
+            <Fade bottom delay={1000}>
               <p className="carousel--details_body">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Perspiciatis officia velit quisquam quo? Aperiam, consequatur

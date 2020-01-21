@@ -4,7 +4,8 @@ header {
   width: 100%;
   height: auto;
   display: block;
-
+  position: fixed;
+  z-index: 2;
   a {
     font-size: 0.75rem;
     text-transform: uppercase;

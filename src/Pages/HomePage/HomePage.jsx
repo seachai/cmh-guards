@@ -8,6 +8,8 @@ import About from "../../Components/About/About";
 import Quote from "../../Components/Quote/Quote";
 import Quality from "../../Components/Quality/Quality";
 import Reviews from "../../Components/Reviews/Reviews";
+import History from "../../Components/History/History";
+import Contact from "../../Components/Contact/Contact";
 
 const HomePage = () => {
   return (
@@ -15,9 +17,12 @@ const HomePage = () => {
       <Header />
       <Carousel />
       <About />
-      <Quote />
       <Quality />
+      <Quote />
+      <History />
       <Reviews />
+      <Quote />
+      <Contact />
     </>
   );
 };

@@ -1,8 +1,15 @@
 .reviews {
+  padding: 5rem 0;
   background-image: url("../../Images/Reviews/satellite-map.png");
   background-position: top center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  border-bottom: 2px solid #eee;
+  .reviews--heading {
+    text-align: center;
+    .reviews--heading_title {
+    }
+  }
   .reviews--carousel {
     padding: 80px 20px;
     .reviews--card_container {
@@ -14,20 +21,76 @@
       box-shadow: 0px 14px 20px -10px rgba(0, 0, 0, 0.1);
       z-index: 1;
       .reviews--card_image {
-        padding: 20px;
+        padding: 15px;
         img {
           border-radius: 50%;
-          width: 100%;
+          width: 90px;
         }
       }
       .reviews--card_details {
         height: 100%;
+        padding: 10px;
         .reviews--card_title {
           margin-bottom: 20px;
+          h2 {
+            font-size: 1.4rem;
+            color: #263a4f;
+            margin-bottom: 5px;
+          }
+          h4 {
+            font-size: 0.9rem;
+            color: #6a8695;
+            text-transform: uppercase;
+          }
         }
         .reviews--card_body {
           margin-bottom: 20px;
+          p {
+            line-height: 1.5;
+          }
         }
+      }
+    }
+
+    .reviews--carousel--arrow_overlay {
+      color: $orange;
+      background-color: $white;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+      font-size: 2rem;
+      border-radius: 2px;
+      width: 50px;
+      height: 80px;
+      position: absolute;
+      line-height: 80px;
+      top: 50%;
+      transform: translateY(-50%);
+      text-align: center;
+      z-index: 1;
+      cursor: pointer;
+      transition: all 0.2s;
+      &:hover {
+        color: $yellow-orange;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+      }
+    }
+    .left {
+      left: 0;
+    }
+    .right {
+      right: 0;
+    }
+  }
+
+  .slick-dots {
+    width: 100%;
+    li {
+      button:before {
+        font-size: 0.8rem;
+      }
+    }
+    .slick-active {
+      button:before {
+        color: $orange;
       }
     }
   }

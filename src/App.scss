@@ -10,6 +10,8 @@
 @import "./Components/Quote/Quote.scss";
 @import "./Components/Quality/Quality.scss";
 @import "./Components/Reviews/Reviews.scss";
+@import "./Components/History/History.scss";
+@import "./Components/Contact/Contact.scss";
 
 // Library
 @import "./Library/Button/Button.scss";
@@ -46,4 +48,19 @@ li {
 ::selection {
   background-color: $orange-red;
   color: $white;
+}
+
+h5 {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  color: #fe5a0e;
+  margin: 0.5rem 0 1rem 0;
+}
+h2 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  line-height: 2.6rem;
+  margin: 1rem 0;
 }

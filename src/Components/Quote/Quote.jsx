@@ -11,7 +11,7 @@ const Quote = () => {
             <div className="quote--container">
               <div className="quote--title">
                 <h5>Configure your Oil-tight Chain Guard</h5>
-                <h2>Request for Quote</h2>
+                <h2>Order Online</h2>
               </div>
               <QuoteButton text={"Get Started"} />
             </div>
