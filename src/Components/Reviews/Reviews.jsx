@@ -21,23 +21,64 @@ const Reviews = () => {
         <div className="row">
           <Slider {...settings}>
             <div className="reviews--card">
-              <div className="reviews--card_title">
-                <h2>Mr Robinson</h2>
+              <div className="reviews--card_container">
+                <div className="reviews--card_image">
+                  <img src="https://i.pravatar.cc/100" alt="Random user" />
+                </div>
+                <div className="reviews--card_details">
+                  <div className="reviews--card_title">
+                    <h2>Bruce S.</h2>
+                    <h4>Production Manager, Acme Mining</h4>
+                  </div>
+                  <div className="reviews--card_body">
+                    “Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut Lorem ipsum dolor
+                    sit amet, consectetuer adipiscing elit, sed diam nonummy
+                    nibh euismod tincidunt ut sit amet, consectetuer.”
+                  </div>
+                  <div className="reviews--card_rating">⭐️⭐️⭐️⭐️⭐️</div>
+                </div>
               </div>
-              <div className="reviews--card_body">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Officiis, porro!
+            </div>
+            <div className="reviews--card">
+              <div className="reviews--card_container">
+                <div className="reviews--card_image">
+                  <img src="https://i.pravatar.cc/100" alt="Random user" />
+                </div>
+                <div className="reviews--card_details">
+                  <div className="reviews--card_title">
+                    <h2>Bruce S.</h2>
+                    <h4>Production Manager, Acme Mining</h4>
+                  </div>
+                  <div className="reviews--card_body">
+                    “Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut Lorem ipsum dolor
+                    sit amet, consectetuer adipiscing elit, sed diam nonummy
+                    nibh euismod tincidunt ut sit amet, consectetuer.”
+                  </div>
+                  <div className="reviews--card_rating">⭐️⭐️⭐️⭐️⭐️</div>
+                </div>
               </div>
-              <div className="reviews--card_rating">Amazing!</div>
             </div>
-            <div>
-              <h3>2</h3>
-            </div>
-            <div>
-              <h3>3</h3>
-            </div>
-            <div>
-              <h3>4</h3>
+            <div className="reviews--card">
+              <div className="reviews--card_container">
+                <div className="reviews--card_image">
+                  <img src="https://i.pravatar.cc/100" alt="Random user" />
+                </div>
+                <div className="reviews--card_details">
+                  <div className="reviews--card_title">
+                    <h2>Bruce S.</h2>
+                    <h4>Production Manager, Acme Mining</h4>
+                  </div>
+                  <div className="reviews--card_body">
+                    “Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut Lorem ipsum dolor
+                    sit amet, consectetuer adipiscing elit, sed diam nonummy
+                    nibh euismod tincidunt ut sit amet, consectetuer.”
+                  </div>
+                  <div className="reviews--card_rating">⭐️⭐️⭐️⭐️⭐️</div>
+                </div>
+              </div>
             </div>
           </Slider>
         </div>
