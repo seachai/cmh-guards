@@ -33,73 +33,74 @@ const Carousel = () => {
   return (
     <Slider {...settings}>
       <div className="carousel--images first">
-        <div className="carousel--details">
-          <div className="container">
-            <div className="carousel--details_inner col-xl-6">
-              <Fade top>
-                <h1 className="carousel--details_title">
-                  No Job Too Small or Too Complicated
-                </h1>
-              </Fade>
-              <Fade bottom>
-                <p className="carousel--details_body">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Perspiciatis officia velit quisquam quo? Aperiam, consequatur
-                  iste? Illo cumque at accusamus!
-                </p>
-                <QuoteButton text={"Learn More"} />
-              </Fade>
-            </div>
+        <div className="carousel--details container">
+          <div className="carousel--details_inner col-xl-6">
+            <Fade top>
+              <h1 className="carousel--details_title">
+                No Job Too Small or Too Complicated
+              </h1>
+            </Fade>
+            <Fade bottom>
+              <p className="carousel--details_body">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Perspiciatis officia velit quisquam quo? Aperiam, consequatur
+                iste? Illo cumque at accusamus!
+              </p>
+              <QuoteButton text={"Learn More"} />
+            </Fade>
           </div>
         </div>
       </div>
       <div className="carousel--images second">
-        <div className="carousel--details">
-          <div className="container">
-            <div
-              className="carousel--details_inner col-xl-6 col-xl-offset-3"
-              style={{
-                textAlign: "center",
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                flexDirection: "column"
-              }}
-            >
-              <Fade top>
-                <h1 className="carousel--details_title">Hello World</h1>
-              </Fade>
-              <Fade bottom>
-                <p className="carousel--details_body">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Perspiciatis officia velit quisquam quo? Aperiam, consequatur
-                  iste? Illo cumque at accusamus!
-                </p>
-                <QuoteButton text={"View Projects"} />
-              </Fade>
-            </div>
+        <div className="carousel--details container">
+          <div
+            className="carousel--details_inner col-xl-6 col-xl-offset-3"
+            style={{
+              textAlign: "center",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              flexDirection: "column"
+            }}
+          >
+            <Fade top>
+              <h1 className="carousel--details_title">
+                No Job Too Small or Too Complicated
+              </h1>
+            </Fade>
+            <Fade bottom>
+              <p className="carousel--details_body">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Perspiciatis officia velit quisquam quo? Aperiam, consequatur
+                iste? Illo cumque at accusamus!
+              </p>
+              <QuoteButton text={"View Projects"} />
+            </Fade>
           </div>
         </div>
       </div>
       <div className="carousel--images third">
-        <div className="carousel--details" style={{ alignItems: "flex-end" }}>
-          <div className="container">
-            <div
-              className="carousel--details_inner col-xl-6"
-              style={{ textAlign: "right" }}
-            >
-              <Fade top>
-                <h1 className="carousel--details_title">Hello World</h1>
-              </Fade>
-              <Fade bottom>
-                <p className="carousel--details_body">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Perspiciatis officia velit quisquam quo? Aperiam, consequatur
-                  iste? Illo cumque at accusamus!
-                </p>
-                <QuoteButton text={"Our Mission"} />
-              </Fade>
-            </div>
+        <div
+          className="carousel--details container"
+          style={{ alignItems: "flex-end" }}
+        >
+          <div
+            className="carousel--details_inner col-xl-6"
+            style={{ textAlign: "right" }}
+          >
+            <Fade top>
+              <h1 className="carousel--details_title">
+                No Job Too Small or Too Complicated
+              </h1>
+            </Fade>
+            <Fade bottom>
+              <p className="carousel--details_body">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Perspiciatis officia velit quisquam quo? Aperiam, consequatur
+                iste? Illo cumque at accusamus!
+              </p>
+              <QuoteButton text={"Our Mission"} styleLeft />
+            </Fade>
           </div>
         </div>
       </div>

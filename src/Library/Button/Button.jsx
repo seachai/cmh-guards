@@ -1,9 +1,11 @@
 import React from "react";
 
-const Button = ({ text }) => {
+const Button = ({ text, styleLeft }) => {
   return (
     <div className="button">
-      <a href="/">{text}</a>
+      <a href="/" style={{ marginLeft: styleLeft ? "auto" : null }}>
+        {text}
+      </a>
     </div>
   );
 };
