@@ -6,6 +6,24 @@
   background-repeat: no-repeat;
   background-size: contain;
 
+  .quality--background_overlay {
+    .fa-play-circle {
+      font-size: 7.5rem;
+      color: $white;
+      position: absolute;
+      top: 40%;
+      left: 47%;
+      background-color: $orange;
+      border-radius: 50%;
+      cursor: pointer;
+      z-index: 2;
+      transition: 0.2s ease-in;
+      &:hover {
+        color: $orange-red;
+      }
+    }
+  }
+
   .row {
     width: 100%;
     display: -webkit-box;
@@ -15,7 +33,7 @@
 
     .quality--right_side {
       z-index: 1;
-      padding: 70px 0px 70px 50px;
+      padding: 70px 0px 70px 90px;
       .quality--title {
         color: $white;
       }

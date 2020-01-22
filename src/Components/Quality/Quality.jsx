@@ -1,10 +1,14 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
+import Video from "../Video/Video";
 
 const Quality = () => {
   return (
     <section className="quality">
-      <div className="quality--background_overlay"></div>
+      {/* <Video className="video" /> */}
+      <div className="quality--background_overlay">
+        <i className="far fa-play-circle"></i>
+      </div>
       <div className="container">
         <div className="row">
           <div className="quality--right_side col-xl-6 col-xl-offset-6">

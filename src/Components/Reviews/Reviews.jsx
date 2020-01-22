@@ -1,5 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
+import Fade from "react-reveal/Fade";
 
 const Arrow = ({ direction, onClick }) => {
   return (
@@ -34,91 +35,98 @@ const Reviews = () => {
       <div className="container">
         <div className="row">
           <div className="reviews--heading col-xl-12">
-            <div className="reviews--heading_title">
-              <h5>Testimonials</h5>
-              <h2>What our customers have to say</h2>
-            </div>
+            <Fade top>
+              <div className="reviews--heading_title">
+                <h5>Testimonials</h5>
+                <h2>What our customers have to say</h2>
+              </div>
+            </Fade>
           </div>
-          <Slider {...settings}>
-            <div className="reviews--card">
-              <div className="reviews--card_container">
-                <div className="reviews--card_image">
-                  <img src="https://i.pravatar.cc/100" alt="Random user" />
-                </div>
-                <div className="reviews--card_details">
-                  <div className="reviews--card_title">
-                    <h2>Bruce S.</h2>
-                    <h4>Production Manager, Acme Mining</h4>
+          <Fade duration={1000}>
+            <Slider {...settings}>
+              <div className="reviews--card">
+                <div className="reviews--card_container">
+                  <div className="reviews--card_image">
+                    <img src="https://i.pravatar.cc/100" alt="Random user" />
                   </div>
-                  <div className="reviews--card_body">
-                    <p>
-                      “Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                      sed diam nonummy nibh euismod tincidunt ut Lorem ipsum
-                      dolor sit amet, consectetuer adipiscing elit, sed diam
-                      nonummy nibh euismod tincidunt ut sit amet, consectetuer.”
-                    </p>
-                  </div>
-                  <div className="reviews--card_rating">
-                    <span role="img" aria-label="5 star rating">
-                      ⭐️⭐️⭐️⭐️⭐️
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="reviews--card">
-              <div className="reviews--card_container">
-                <div className="reviews--card_image">
-                  <img src="https://i.pravatar.cc/100" alt="Random user" />
-                </div>
-                <div className="reviews--card_details">
-                  <div className="reviews--card_title">
-                    <h2>Bruce S.</h2>
-                    <h4>Production Manager, Acme Mining</h4>
-                  </div>
-                  <div className="reviews--card_body">
-                    <p>
-                      “Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                      sed diam nonummy nibh euismod tincidunt ut Lorem ipsum
-                      dolor sit amet, consectetuer adipiscing elit, sed diam
-                      nonummy nibh euismod tincidunt ut sit amet, consectetuer.”
-                    </p>
-                  </div>
-                  <div className="reviews--card_rating">
-                    <span role="img" aria-label="5 star rating">
-                      ⭐️⭐️⭐️⭐️⭐️
-                    </span>
+                  <div className="reviews--card_details">
+                    <div className="reviews--card_title">
+                      <h2>Bruce S.</h2>
+                      <h4>Production Manager, Acme Mining</h4>
+                    </div>
+                    <div className="reviews--card_body">
+                      <p>
+                        “Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit, sed diam nonummy nibh euismod tincidunt ut Lorem
+                        ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                        diam nonummy nibh euismod tincidunt ut sit amet,
+                        consectetuer.”
+                      </p>
+                    </div>
+                    <div className="reviews--card_rating">
+                      <span role="img" aria-label="5 star rating">
+                        ⭐️⭐️⭐️⭐️⭐️
+                      </span>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="reviews--card">
-              <div className="reviews--card_container">
-                <div className="reviews--card_image">
-                  <img src="https://i.pravatar.cc/100" alt="Random user" />
-                </div>
-                <div className="reviews--card_details">
-                  <div className="reviews--card_title">
-                    <h2>Bruce S.</h2>
-                    <h4>Production Manager, Acme Mining</h4>
+              <div className="reviews--card">
+                <div className="reviews--card_container">
+                  <div className="reviews--card_image">
+                    <img src="https://i.pravatar.cc/100" alt="Random user" />
                   </div>
-                  <div className="reviews--card_body">
-                    <p>
-                      “Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                      sed diam nonummy nibh euismod tincidunt ut Lorem ipsum
-                      dolor sit amet, consectetuer adipiscing elit, sed diam
-                      nonummy nibh euismod tincidunt ut sit amet, consectetuer.”
-                    </p>
-                  </div>
-                  <div className="reviews--card_rating">
-                    <span role="img" aria-label="5 star rating">
-                      ⭐️⭐️⭐️⭐️⭐️
-                    </span>
+                  <div className="reviews--card_details">
+                    <div className="reviews--card_title">
+                      <h2>Bruce S.</h2>
+                      <h4>Production Manager, Acme Mining</h4>
+                    </div>
+                    <div className="reviews--card_body">
+                      <p>
+                        “Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit, sed diam nonummy nibh euismod tincidunt ut Lorem
+                        ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                        diam nonummy nibh euismod tincidunt ut sit amet,
+                        consectetuer.”
+                      </p>
+                    </div>
+                    <div className="reviews--card_rating">
+                      <span role="img" aria-label="5 star rating">
+                        ⭐️⭐️⭐️⭐️⭐️
+                      </span>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </Slider>
+              <div className="reviews--card">
+                <div className="reviews--card_container">
+                  <div className="reviews--card_image">
+                    <img src="https://i.pravatar.cc/100" alt="Random user" />
+                  </div>
+                  <div className="reviews--card_details">
+                    <div className="reviews--card_title">
+                      <h2>Bruce S.</h2>
+                      <h4>Production Manager, Acme Mining</h4>
+                    </div>
+                    <div className="reviews--card_body">
+                      <p>
+                        “Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit, sed diam nonummy nibh euismod tincidunt ut Lorem
+                        ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                        diam nonummy nibh euismod tincidunt ut sit amet,
+                        consectetuer.”
+                      </p>
+                    </div>
+                    <div className="reviews--card_rating">
+                      <span role="img" aria-label="5 star rating">
+                        ⭐️⭐️⭐️⭐️⭐️
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </Slider>
+          </Fade>
         </div>
       </div>
     </section>

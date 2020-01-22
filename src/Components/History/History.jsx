@@ -33,35 +33,42 @@ const History = () => {
               </div>
             </div>
           </Fade>
-
-          <div className="col-xl-12">
+        </div>
+        <div className="row">
+          <div className="history--photo">
             <FsLightbox
               toggler={modal.toggler}
               slide={modal.slide}
               sources={[HandCut, LaserCut]}
               key={modal.slide}
             />
-            <div className="history--photo">
-              <img
-                src={HandCut}
+            <div className="history--photo_image-card col-xl-6">
+              <img src={HandCut} alt="Precision laser cutting metal" />
+              <div
+                className="history--photo_overlay"
                 onClick={() =>
                   setModal({
                     toggler: !modal.toggler,
                     slide: 1
                   })
                 }
-                alt="Precision laser cutting metal"
-              />
-              <img
-                src={LaserCut}
+              >
+                <i className="fas fa-expand"></i>
+              </div>
+            </div>
+            <div className="history--photo_image-card col-xl-6">
+              <img src={LaserCut} alt="Precision laser cutting metal" />
+              <div
+                className="history--photo_overlay"
                 onClick={() =>
                   setModal({
                     toggler: !modal.toggler,
                     slide: 2
                   })
                 }
-                alt="Precision laser cutting metal"
-              />
+              >
+                <i className="fas fa-expand"></i>
+              </div>
             </div>
           </div>
         </div>
