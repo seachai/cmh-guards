@@ -42,21 +42,13 @@
   }
   .contact--form {
     input {
-      border: 1px solid #ddd;
-      padding: 12px 0.75rem;
-      display: block;
-      // width: 100%;
-      padding: 0.375rem 0.75rem;
+      background: transparent;
+      padding: 12px 20px;
+      color: #cecece;
       font-size: 1rem;
-      line-height: 1.5;
-      color: #495057;
-      background-color: #fff;
-      // border: 1px solid #ced4da;
-      // border-radius: 0.25rem;
-      border-radius: 2px;
-      border-style: solid;
-      border-width: 2px 2px 2px 2px;
-      border-color: #eeeeee;
+      border: 1px solid #3c3b3b;
+      width: 100%;
+      outline: none;
     }
   }
 }

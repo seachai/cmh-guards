@@ -48,22 +48,66 @@ const Contact = () => {
             </div>
             <div className="contact--form">
               <div className="container">
-                <form action="POST">
-                  <div className="row">
-                    <input
-                      type="text"
-                      name="first-name"
-                      placeholder="First Name"
-                      className="col-xl-6"
-                    ></input>
-                    <input
-                      type="text"
-                      name="last-name"
-                      placeholder="Last Name"
-                      className="col-xl-6"
-                    ></input>
-                  </div>
-                </form>
+                <div className="row">
+                  <form>
+                    <div className="col-md-4 col-md-12">
+                      <input
+                        type="text"
+                        name="name"
+                        id="name"
+                        placeholder="Name *"
+                        className="field"
+                      />
+                    </div>
+
+                    <div className="col-md-4 col-md-12">
+                      <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="Email *"
+                        className="field"
+                      />
+                    </div>
+
+                    <div className="col-md-4 col-md-12">
+                      <input
+                        type="text"
+                        name="subject"
+                        id="subject"
+                        placeholder="Subject *"
+                        className="field"
+                      />
+                    </div>
+                  </form>
+                </div>
+
+                <div className="row">
+                  <form>
+                    <div className="col-lg-12">
+                      <input
+                        component="textarea"
+                        name="textarea"
+                        id="textarea"
+                        cols="120"
+                        rows="10"
+                        placeholder="Please enter all inquiries here"
+                      />
+                    </div>
+                  </form>
+                </div>
+
+                <div className="row">
+                  <form>
+                    <div className="col-lg-12">
+                      <div className="center-button">
+                        <button className="button" type="submit">
+                          Submit
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
               </div>
             </div>
           </div>
