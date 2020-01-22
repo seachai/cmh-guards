@@ -1,0 +1,42 @@
+.footer {
+  padding: 5rem 0;
+  background-color: #f9f9f9;
+  .footer--top {
+    .footer--logo {
+      margin-bottom: 20px;
+      img {
+        height: 80px;
+      }
+    }
+    .footer--body {
+      margin-bottom: 20px;
+      p {
+        line-height: 1.5;
+      }
+    }
+    .footer--contact {
+      h2 {
+        font-size: 1.4rem;
+        color: $dark-blue;
+        margin-bottom: 5px;
+      }
+      ul {
+        li {
+          font-size: 0.9rem;
+          font-weight: 600;
+          line-height: 2rem;
+          .fas {
+            font-size: 0.9rem;
+            color: $orange;
+          }
+          span {
+            margin-left: 1.4rem;
+          }
+        }
+        p {
+          margin: 1rem 0;
+        }
+      }
+    }
+  }
+}

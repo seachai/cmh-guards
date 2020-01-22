@@ -2,53 +2,56 @@
   padding: 5rem 0;
   background-color: #f9f9f9;
   border-bottom: 2px solid #eee;
-  .contact--body {
-    p {
-      line-height: 2rem;
-      margin: 1rem 0;
-    }
-  }
 
-  .contact--list {
-    ul {
-      li {
-        font-size: 0.9rem;
-        font-weight: 600;
-        line-height: 2rem;
-        .fas {
+  .contact--container {
+    background-color: #fff;
+    padding: 5rem;
+    box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.15);
+    margin-top: -120px;
+    border-radius: 2px;
+    height: 500px;
+
+    .contact--list {
+      ul {
+        li {
           font-size: 0.9rem;
-          color: $orange;
+          font-weight: 600;
+          line-height: 2rem;
+          .fas {
+            font-size: 0.9rem;
+            color: $orange;
+          }
+          span {
+            margin-left: 1.4rem;
+          }
         }
-        span {
-          margin-left: 1.4rem;
+        p {
+          margin: 1rem 0;
         }
-      }
-      p {
-        margin: 1rem 0;
       }
     }
-  }
 
-  .contact--title {
-    h2 {
-      font-size: 1.4rem;
-      color: #263a4f;
-      margin-bottom: 5px;
+    .contact--title {
+      h2 {
+        font-size: 1.4rem;
+        color: #263a4f;
+        margin-bottom: 5px;
+      }
+      h4 {
+        font-size: 0.9rem;
+        color: #6a8695;
+      }
     }
-    h4 {
-      font-size: 0.9rem;
-      color: #6a8695;
-    }
-  }
-  .contact--form {
-    input {
-      background: transparent;
-      padding: 12px 20px;
-      color: #cecece;
-      font-size: 1rem;
-      border: 1px solid #3c3b3b;
-      width: 100%;
-      outline: none;
+    .contact--form {
+      input {
+        background: transparent;
+        padding: 12px 20px;
+        color: #cecece;
+        font-size: 1rem;
+        border: 1px solid #3c3b3b;
+        width: 100%;
+        outline: none;
+      }
     }
   }
 }

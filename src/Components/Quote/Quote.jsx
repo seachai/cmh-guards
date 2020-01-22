@@ -2,7 +2,7 @@ import React from "react";
 
 import QuoteButton from "../../Library/Button/Button";
 
-const Quote = () => {
+const Quote = ({ subtitle, title, button }) => {
   return (
     <section className="quote">
       <div className="container">
@@ -10,10 +10,10 @@ const Quote = () => {
           <div className="col-xl-12">
             <div className="quote--container">
               <div className="quote--title">
-                <h5>Configure your Oil-tight Chain Guard</h5>
-                <h2>Order Online</h2>
+                <h5>{subtitle}</h5>
+                <h2>{title}</h2>
               </div>
-              <QuoteButton text={"Get Started"} />
+              { button ? <QuoteButton text={"Get Started"} /> : null }
             </div>
           </div>
         </div>

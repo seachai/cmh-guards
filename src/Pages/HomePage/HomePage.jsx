@@ -10,19 +10,23 @@ import Quality from "../../Components/Quality/Quality";
 import Reviews from "../../Components/Reviews/Reviews";
 import History from "../../Components/History/History";
 import Contact from "../../Components/Contact/Contact";
+import Footer from "../../Components/Footer/Footer";
 
 const HomePage = () => {
   return (
     <>
-      <Header />
-      <Carousel />
-      <About />
-      <Quality />
-      <Quote />
-      <History />
-      <Reviews />
-      <Quote />
-      <Contact />
+      <div className="test">
+        <Header />
+        <Carousel />
+        <About />
+        <Quality />
+        <Quote subtitle={'Configure your oil-tight chain guard'} title={'Order Online'} button />
+        <History />
+        <Reviews />
+        <Quote title={'Contact Us'}/>
+        <Contact />
+      </div>
+      <Footer />
     </>
   );
 };
