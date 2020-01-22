@@ -23,6 +23,25 @@ const Footer = () => {
                 </div>
               </div>
               <div className="col-xl-4">
+                <div className="footer--links">
+                  <h2>Our Links</h2>
+                  <ul>
+                    <li>
+                      <a href="/">Home</a>
+                    </li>
+                    <li>
+                      <a href="/">Company</a>
+                    </li>
+                    <li>
+                      <a href="/">Products</a>
+                    </li>
+                    <li>
+                      <a href="/">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-xl-4">
                 <div className="footer--contact">
                   <h2>Contact Us</h2>
                   <ul>
@@ -32,20 +51,30 @@ const Footer = () => {
                     </li>
                     <li>
                       <i className="fas fa-envelope"></i>
-                      <span>orders@cmh.com</span>
+                      <a href="mailto:orders@cmh.com" target="_top">
+                        orders@cmh.com
+                      </a>
                     </li>
                     <li>
                       <i className="fas fa-phone"></i>
-                      <span>800-555-1234</span>
+                      <a href="tel:800-555-1234">800-555-1234</a>
                     </li>
                     <li>
                       <i className="fas fa-fax"></i>
-                      <span>800-555-5678</span>
+                      <a href="tel:800-555-5678">800-555-5678</a>
                     </li>
                   </ul>
                 </div>
               </div>
-              <div className="col-xl-4">Goodbye</div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-xl-12">
+              <div className="footer--bottom">
+                <div className="footer--copyright">
+                  © Copyright 2020 Chai Lee - All Rights Reserved
+                </div>
+              </div>
             </div>
           </div>
         </div>

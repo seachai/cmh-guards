@@ -1,18 +1,19 @@
 import React from "react";
 import Swal from "sweetalert2";
 
-const OrderConfirmation = () => {
+const OrderConfirmation = e => {
+  e.preventDefault();
   Swal.fire({
     icon: "success",
-    title: "Order Received",
+    title: "We will contact you soon.",
     text: "Thank you"
   });
 };
 
-const Button = ({ text, styleLeft, order }) => {
+const Button = ({ text, styleLeft, order, submit }) => {
   return (
     <div className="button">
-      {order ? (
+      {order || submit ? (
         <button
           style={{ marginLeft: styleLeft ? "auto" : null }}
           onClick={OrderConfirmation}

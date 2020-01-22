@@ -1,7 +1,13 @@
 .footer {
-  padding: 5rem 0;
-  background-color: #f9f9f9;
+  padding: 5rem 0 2rem 0;
   .footer--top {
+    height: 250px;
+    border-bottom: 2px solid $orange;
+    h2 {
+      font-size: 1.4rem;
+      color: $dark-blue;
+      margin-bottom: 5px;
+    }
     .footer--logo {
       margin-bottom: 20px;
       img {
@@ -11,15 +17,14 @@
     .footer--body {
       margin-bottom: 20px;
       p {
-        line-height: 1.5;
+        line-height: 1.6;
+        font-size: 0.9rem;
+        font-weight: 600;
       }
     }
+
+    .footer--links,
     .footer--contact {
-      h2 {
-        font-size: 1.4rem;
-        color: $dark-blue;
-        margin-bottom: 5px;
-      }
       ul {
         li {
           font-size: 0.9rem;
@@ -29,14 +34,33 @@
             font-size: 0.9rem;
             color: $orange;
           }
-          span {
-            margin-left: 1.4rem;
+
+          a {
+            color: $black;
+            font-size: 0.9rem;
+            text-decoration: none;
+            transition: all 0.2s;
+            &:hover {
+              color: $orange;
+            }
           }
-        }
-        p {
-          margin: 1rem 0;
         }
       }
     }
+    .footer--contact {
+      ul {
+        li {
+          span,
+          a {
+            margin-left: 1.4rem;
+          }
+        }
+      }
+    }
+  }
+
+  .footer--bottom {
+    padding-top: 3rem;
+    text-align: center;
   }
 }

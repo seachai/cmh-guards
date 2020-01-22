@@ -15,17 +15,19 @@ import Footer from "../../Components/Footer/Footer";
 const HomePage = () => {
   return (
     <>
-      <div className="test">
-        <Header />
-        <Carousel />
-        <About />
-        <Quality />
-        <Quote subtitle={'Configure your oil-tight chain guard'} title={'Order Online'} button />
-        <History />
-        <Reviews />
-        <Quote title={'Contact Us'}/>
-        <Contact />
-      </div>
+      <Header />
+      <Carousel />
+      <About />
+      <Quality />
+      <Quote
+        subtitle={"Configure your oil-tight chain guard"}
+        title={"Order Online"}
+        button
+      />
+      <History />
+      <Reviews />
+      <Quote subtitle={"We have solutions"} title={"Contact Us"} />
+      <Contact />
       <Footer />
     </>
   );

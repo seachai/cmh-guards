@@ -1,12 +1,14 @@
 import React from "react";
 
+import QuoteButton from "../../Library/Button/Button";
+
 const Contact = () => {
   return (
     <section className="contact">
       <div className="container">
         <div className="row">
           <div className="contact--container">
-            <div className="col-xl-5">
+            <div className="col-xl-6">
               <div className="contact--title">
                 <h2>Contact Information</h2>
               </div>
@@ -18,21 +20,23 @@ const Contact = () => {
                   </li>
                   <li>
                     <i className="fas fa-envelope"></i>
-                    <span>orders@cmh.com</span>
+                    <a href="mailto:orders@cmh.com" target="_top">
+                      orders@cmh.com
+                    </a>
                   </li>
                   <li>
                     <i className="fas fa-phone"></i>
-                    <span>800-555-1234</span>
+                    <a href="tel:800-555-1234">800-555-1234</a>
                   </li>
                   <li>
                     <i className="fas fa-fax"></i>
-                    <span>800-555-5678</span>
+                    <a href="tel:800-555-5678">800-555-5678</a>
                   </li>
                 </ul>
               </div>
             </div>
 
-            <div className="col-xl-7">
+            <div className="col-xl-6">
               <div className="contact--title">
                 <h2>Get In Touch With Us!</h2>
                 <h4>
@@ -40,68 +44,51 @@ const Contact = () => {
                 </h4>
               </div>
               <div className="contact--form">
-                <div className="container">
+                <form>
                   <div className="row">
-                    <form>
-                      <div className="col-md-4 col-md-12">
-                        <input
-                          type="text"
-                          name="name"
-                          id="name"
-                          placeholder="Name *"
-                          className="field"
-                        />
-                      </div>
+                    <div className="col-xl-6">
+                      <input
+                        type="text"
+                        name="name"
+                        placeholder="Name"
+                        className="field"
+                        required
+                      />
+                    </div>
 
-                      <div className="col-md-4 col-md-12">
-                        <input
-                          type="email"
-                          name="email"
-                          id="email"
-                          placeholder="Email *"
-                          className="field"
-                        />
-                      </div>
-
-                      <div className="col-md-4 col-md-12">
-                        <input
-                          type="text"
-                          name="subject"
-                          id="subject"
-                          placeholder="Subject *"
-                          className="field"
-                        />
-                      </div>
-                    </form>
+                    <div className="col-xl-6">
+                      <input
+                        type="email"
+                        name="email"
+                        placeholder="Email"
+                        className="field"
+                        required
+                      />
+                    </div>
                   </div>
-
                   <div className="row">
-                    <form>
-                      <div className="col-lg-12">
-                        <input
-                          component="textarea"
-                          name="textarea"
-                          id="textarea"
-                          cols="120"
-                          rows="10"
-                          placeholder="Please enter all inquiries here"
-                        />
-                      </div>
-                    </form>
+                    <div className="col-xl-12">
+                      <textarea
+                        name="textarea"
+                        cols="30"
+                        rows="10"
+                        placeholder="Message"
+                        className="text-area"
+                        required
+                      />
+                    </div>
                   </div>
-
                   <div className="row">
-                    <form>
-                      <div className="col-lg-12">
-                        <div className="center-button">
-                          <button className="button" type="submit">
-                            Submit
-                          </button>
-                        </div>
-                      </div>
-                    </form>
+                    <div className="col-xl-12">
+                      <QuoteButton
+                        className="contact--form_button"
+                        type="submit"
+                        text={"Submit"}
+                        submit
+                      />
+                    </div>
                   </div>
-                </div>
+                </form>
               </div>
             </div>
           </div>

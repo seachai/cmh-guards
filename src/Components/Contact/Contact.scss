@@ -2,10 +2,11 @@
   padding: 5rem 0;
   background-color: #f9f9f9;
   border-bottom: 2px solid #eee;
+  background-image: url("../../Images/Footer/footer-pattern.png");
 
   .contact--container {
-    background-color: #fff;
-    padding: 5rem;
+    background-color: $white;
+    padding: 3rem;
     box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.15);
     margin-top: -120px;
     border-radius: 2px;
@@ -21,20 +22,25 @@
             font-size: 0.9rem;
             color: $orange;
           }
-          span {
+          span,
+          a {
+            color: $black;
+            text-decoration: none;
             margin-left: 1.4rem;
+            transition: all 0.2s;
+            &:hover {
+              color: $orange;
+            }
           }
-        }
-        p {
-          margin: 1rem 0;
         }
       }
     }
 
     .contact--title {
+      margin-bottom: 20px;
       h2 {
         font-size: 1.4rem;
-        color: #263a4f;
+        color: $dark-blue;
         margin-bottom: 5px;
       }
       h4 {
@@ -43,14 +49,24 @@
       }
     }
     .contact--form {
-      input {
-        background: transparent;
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        border: 1px solid #ddd;
         padding: 12px 20px;
-        color: #cecece;
-        font-size: 1rem;
-        border: 1px solid #3c3b3b;
+        background-color: transparent;
         width: 100%;
         outline: none;
+        border-radius: 2px;
+        font-size: 1rem;
+      }
+      .field {
+        margin-bottom: 20px;
+      }
+      .text-area {
+        height: 150px;
+        width: 100%;
+        margin-bottom: 20px;
       }
     }
   }
