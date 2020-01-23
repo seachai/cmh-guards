@@ -1,5 +1,15 @@
 # 2020 Mini Challenge for Web Design and Programming
 
+## Set up
+
+1. `git clone https://github.com/seachai/cmh-guards.git`
+2. `npm install`
+3. `npm start`
+
+---
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 ## Client
 
 ### CMH Guards
