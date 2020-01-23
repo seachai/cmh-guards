@@ -6,9 +6,15 @@
 2. `npm install`
 3. `npm start`
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 ---
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## View Live Site
+
+https://wonderful-einstein-0f98e8.netlify.com
+
+---
 
 ## Client
 
