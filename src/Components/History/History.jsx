@@ -35,42 +35,44 @@ const History = () => {
           </Fade>
         </div>
         <div className="row">
-          <div className="history--photo">
-            <FsLightbox
-              toggler={modal.toggler}
-              slide={modal.slide}
-              sources={[HandCut, LaserCut]}
-              key={modal.slide}
-            />
-            <div className="history--photo_image-card col-xl-6">
-              <img src={HandCut} alt="Precision laser cutting metal" />
-              <div
-                className="history--photo_overlay"
-                onClick={() =>
-                  setModal({
-                    toggler: !modal.toggler,
-                    slide: 1
-                  })
-                }
-              >
-                <i className="fas fa-expand"></i>
+          <Fade delay={1000}>
+            <div className="history--photo">
+              <FsLightbox
+                toggler={modal.toggler}
+                slide={modal.slide}
+                sources={[HandCut, LaserCut]}
+                key={modal.slide}
+              />
+              <div className="history--photo_image-card col-xl-6">
+                <img src={HandCut} alt="Precision laser cutting metal" />
+                <div
+                  className="history--photo_overlay"
+                  onClick={() =>
+                    setModal({
+                      toggler: !modal.toggler,
+                      slide: 1
+                    })
+                  }
+                >
+                  <i className="fas fa-expand"></i>
+                </div>
+              </div>
+              <div className="history--photo_image-card col-xl-6">
+                <img src={LaserCut} alt="Precision laser cutting metal" />
+                <div
+                  className="history--photo_overlay"
+                  onClick={() =>
+                    setModal({
+                      toggler: !modal.toggler,
+                      slide: 2
+                    })
+                  }
+                >
+                  <i className="fas fa-expand"></i>
+                </div>
               </div>
             </div>
-            <div className="history--photo_image-card col-xl-6">
-              <img src={LaserCut} alt="Precision laser cutting metal" />
-              <div
-                className="history--photo_overlay"
-                onClick={() =>
-                  setModal({
-                    toggler: !modal.toggler,
-                    slide: 2
-                  })
-                }
-              >
-                <i className="fas fa-expand"></i>
-              </div>
-            </div>
-          </div>
+          </Fade>
         </div>
       </div>
     </section>

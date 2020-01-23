@@ -2,7 +2,8 @@ import React from "react";
 import Fade from "react-reveal/Fade";
 
 import QuoteButton from "../../Library/Button/Button";
-import Mining from "../../Images/Product/ts-mfg-mining.jpg";
+
+import MachineGuard from "../../Video/Machine-Guard.mp4";
 
 const About = () => {
   return (
@@ -45,8 +46,11 @@ const About = () => {
           </Fade>
           <Fade right distance={"30%"}>
             <div className="col-xl-6">
-              <div className="about-us--photo">
-                <img src={Mining} alt="Mining and showcasing CMH guards" />
+              <div className="about-us--video">
+                <video autoPlay muted loop>
+                  <source src={MachineGuard} type="video/mp4" />
+                </video>
+                <h4>Showcase - Oil Chain Guard</h4>
               </div>
             </div>
           </Fade>

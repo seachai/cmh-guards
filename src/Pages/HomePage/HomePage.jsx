@@ -11,7 +11,6 @@ import Reviews from "../../Components/Reviews/Reviews";
 import History from "../../Components/History/History";
 import Contact from "../../Components/Contact/Contact";
 import Footer from "../../Components/Footer/Footer";
-import Video from "../../Components/Video/Video";
 
 const HomePage = () => {
   return (
@@ -20,7 +19,6 @@ const HomePage = () => {
       <Carousel />
       <About />
       <Quality />
-      <Video />
       <Quote
         subtitle={"Configure your oil-tight chain guard"}
         title={"Order Online"}

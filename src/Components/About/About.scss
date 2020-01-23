@@ -1,5 +1,6 @@
 .about-us {
   padding: 5rem 0;
+  margin-bottom: 5rem;
   background-color: #f9f9f9;
   border-bottom: 2px solid #eee;
   .about-us--body {
@@ -33,12 +34,16 @@
     margin-top: 2.5rem;
   }
 
-  .about-us--photo {
+  .about-us--video {
     margin: 1rem 0;
-    img {
-      max-width: 100%;
-      height: auto;
+    video {
+      width: 100%;
+      height: 100%;
       box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+    }
+    h4 {
+      margin-top: 1rem;
+      text-align: center;
     }
   }
 }
