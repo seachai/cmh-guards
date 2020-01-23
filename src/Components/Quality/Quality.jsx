@@ -5,9 +5,8 @@ import Video from "../Video/Video";
 const Quality = () => {
   return (
     <section className="quality">
-      {/* <Video className="video" /> */}
       <div className="quality--background_overlay">
-        <i className="far fa-play-circle"></i>
+        {/* <i className="far fa-play-circle"></i> */}
       </div>
       <div className="container">
         <div className="row">

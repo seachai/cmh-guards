@@ -20,12 +20,12 @@ const HomePage = () => {
       <Carousel />
       <About />
       <Quality />
+      <Video />
       <Quote
         subtitle={"Configure your oil-tight chain guard"}
         title={"Order Online"}
         button
       />
-      <Video />
       <History />
       <Reviews />
       <Quote subtitle={"We have solutions"} title={"Contact Us"} />
